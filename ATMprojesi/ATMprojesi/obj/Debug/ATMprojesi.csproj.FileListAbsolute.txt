@@ -1,0 +1,12 @@
+C:\Users\Lenovo\Desktop\yazılım\nesneye yönelik programlama\projeler2\ATMprojesi\ATMprojesi\bin\Debug\ATMprojesi.exe.config
+C:\Users\Lenovo\Desktop\yazılım\nesneye yönelik programlama\projeler2\ATMprojesi\ATMprojesi\bin\Debug\ATMprojesi.exe
+C:\Users\Lenovo\Desktop\yazılım\nesneye yönelik programlama\projeler2\ATMprojesi\ATMprojesi\bin\Debug\ATMprojesi.pdb
+C:\Users\Lenovo\Desktop\yazılım\nesneye yönelik programlama\projeler2\ATMprojesi\ATMprojesi\obj\Debug\ATMprojesi.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\yazılım\nesneye yönelik programlama\projeler2\ATMprojesi\ATMprojesi\obj\Debug\ATMprojesi.Form1.resources
+C:\Users\Lenovo\Desktop\yazılım\nesneye yönelik programlama\projeler2\ATMprojesi\ATMprojesi\obj\Debug\ATMprojesi.Properties.Resources.resources
+C:\Users\Lenovo\Desktop\yazılım\nesneye yönelik programlama\projeler2\ATMprojesi\ATMprojesi\obj\Debug\ATMprojesi.csproj.GenerateResource.cache
+C:\Users\Lenovo\Desktop\yazılım\nesneye yönelik programlama\projeler2\ATMprojesi\ATMprojesi\obj\Debug\ATMprojesi.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\yazılım\nesneye yönelik programlama\projeler2\ATMprojesi\ATMprojesi\obj\Debug\ATMprojesi.exe
+C:\Users\Lenovo\Desktop\yazılım\nesneye yönelik programlama\projeler2\ATMprojesi\ATMprojesi\obj\Debug\ATMprojesi.pdb
+C:\Users\Lenovo\Desktop\yazılım\nesneye yönelik programlama\projeler2\ATMprojesi\ATMprojesi\obj\Debug\ATMprojesi.XBank.resources
+C:\Users\Lenovo\Desktop\yazılım\nesneye yönelik programlama\projeler2\ATMprojesi\ATMprojesi\obj\Debug\ATMprojesi.YBank.resources
