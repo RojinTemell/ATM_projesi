@@ -24,7 +24,7 @@ namespace ATMprojesi
 
             if (btnXbank.Checked==true)
             {
-                if (kullaniciaditxtbox.Text == "rojin temel" || sifretxtbox.Text == " 123")
+                if (kullaniciaditxtbox.Text == "rojin temel" && sifretxtbox.Text == " 123")
                 {
                     XBank xbank = new XBank();
                     xbank.Show();
