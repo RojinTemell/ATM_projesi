@@ -30,13 +30,13 @@ namespace ATMprojesi
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btnXbank = new System.Windows.Forms.RadioButton();
-            this.btnYbank = new System.Windows.Forms.RadioButton();
-            this.label1 = new System.Windows.Forms.Label();
-            this.kullaniciaditxtbox = new System.Windows.Forms.TextBox();
+            this.gonderbtn = new System.Windows.Forms.Button();
             this.sifretxtbox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.gonderbtn = new System.Windows.Forms.Button();
+            this.kullaniciaditxtbox = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnXbank = new System.Windows.Forms.RadioButton();
+            this.btnYbank = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -54,6 +54,49 @@ namespace ATMprojesi
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Giriş Ekranı";
+            // 
+            // gonderbtn
+            // 
+            this.gonderbtn.Location = new System.Drawing.Point(156, 164);
+            this.gonderbtn.Name = "gonderbtn";
+            this.gonderbtn.Size = new System.Drawing.Size(96, 37);
+            this.gonderbtn.TabIndex = 4;
+            this.gonderbtn.Text = "Gönder";
+            this.gonderbtn.UseVisualStyleBackColor = true;
+            this.gonderbtn.Click += new System.EventHandler(this.gonderbtn_Click);
+            // 
+            // sifretxtbox
+            // 
+            this.sifretxtbox.Location = new System.Drawing.Point(140, 98);
+            this.sifretxtbox.Name = "sifretxtbox";
+            this.sifretxtbox.Size = new System.Drawing.Size(159, 27);
+            this.sifretxtbox.TabIndex = 3;
+            this.sifretxtbox.UseSystemPasswordChar = true;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(58, 101);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(53, 20);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "sifre:";
+            // 
+            // kullaniciaditxtbox
+            // 
+            this.kullaniciaditxtbox.Location = new System.Drawing.Point(140, 51);
+            this.kullaniciaditxtbox.Name = "kullaniciaditxtbox";
+            this.kullaniciaditxtbox.Size = new System.Drawing.Size(159, 27);
+            this.kullaniciaditxtbox.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 51);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(115, 20);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "kullanıcı adı:";
             // 
             // btnXbank
             // 
@@ -79,53 +122,11 @@ namespace ATMprojesi
             this.btnYbank.Text = "Ybank";
             this.btnYbank.UseVisualStyleBackColor = true;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 51);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(115, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "kullanıcı adı:";
-            // 
-            // kullaniciaditxtbox
-            // 
-            this.kullaniciaditxtbox.Location = new System.Drawing.Point(140, 51);
-            this.kullaniciaditxtbox.Name = "kullaniciaditxtbox";
-            this.kullaniciaditxtbox.Size = new System.Drawing.Size(159, 27);
-            this.kullaniciaditxtbox.TabIndex = 1;
-            // 
-            // sifretxtbox
-            // 
-            this.sifretxtbox.Location = new System.Drawing.Point(140, 98);
-            this.sifretxtbox.Name = "sifretxtbox";
-            this.sifretxtbox.Size = new System.Drawing.Size(159, 27);
-            this.sifretxtbox.TabIndex = 3;
-            this.sifretxtbox.UseSystemPasswordChar = true;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(58, 101);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 20);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "sifre:";
-            // 
-            // gonderbtn
-            // 
-            this.gonderbtn.Location = new System.Drawing.Point(156, 164);
-            this.gonderbtn.Name = "gonderbtn";
-            this.gonderbtn.Size = new System.Drawing.Size(96, 37);
-            this.gonderbtn.TabIndex = 4;
-            this.gonderbtn.Text = "Gönder";
-            this.gonderbtn.UseVisualStyleBackColor = true;
-            this.gonderbtn.Click += new System.EventHandler(this.gonderbtn_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.ClientSize = new System.Drawing.Size(611, 440);
             this.Controls.Add(this.btnYbank);
             this.Controls.Add(this.btnXbank);
